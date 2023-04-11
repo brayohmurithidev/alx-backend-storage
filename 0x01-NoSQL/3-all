@@ -1,5 +1,5 @@
 // Find all documents
 
-use ('$1')
+use('$1')
 
 db.school.find()
