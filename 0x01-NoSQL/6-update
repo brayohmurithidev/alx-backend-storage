@@ -2,4 +2,4 @@
 
 use('$1')
 
-db.school.updateMany({'name': 'Holberton school'}, {"$set": {'address':'972 Mission street'}})
+db.school.updateOne({'name': 'Holberton school'}, {"$set": {'address':'972 Mission street'}})
