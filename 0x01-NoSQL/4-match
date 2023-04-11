@@ -1,0 +1,5 @@
+// find document that matches
+
+use('$1')
+
+db.school.find({"name":"Holberton school"})
