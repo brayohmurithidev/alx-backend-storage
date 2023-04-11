@@ -1,0 +1,5 @@
+// Use Regex to check if contains a starting string
+
+use('$1')
+
+db.school.find({"name": {"$regex": "Holberton"}})
