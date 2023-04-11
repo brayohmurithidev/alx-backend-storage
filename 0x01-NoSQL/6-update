@@ -1,0 +1,5 @@
+// update document where name is holberton
+
+use('$1')
+
+db.school.updateMany({'name': 'Holberton school'}, {"$set": {'address':'972 Mission street'}})
