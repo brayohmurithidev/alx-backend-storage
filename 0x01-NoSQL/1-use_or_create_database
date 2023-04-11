@@ -1,0 +1,3 @@
+// The use keyword selects the database or creates new if not existing
+
+use my_db
